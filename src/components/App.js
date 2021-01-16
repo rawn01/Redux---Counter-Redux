@@ -18,7 +18,7 @@ function App() {
   return (
     <div id='main'>
       <h3 data-testid="counter">{store.counter}</h3>
-      <button onClick={inc}>+</button>
+      <button onClick={inc} style={{marginRight: 10+"px"}}>+</button>
       <button onClick={dec}>-</button>
     </div>
   );
