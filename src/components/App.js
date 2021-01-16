@@ -19,6 +19,8 @@ function App() {
     <div id='main'>
       <h3 data-testid='counter'>Count: {store.counter}</h3>
       <button onClick={inc}>+</button>
+      <br/>
+      <br/>
       <button onClick={dec}>-</button>
     </div>
   );
