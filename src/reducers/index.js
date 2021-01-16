@@ -6,12 +6,12 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     
     switch (action.type) {
-        case '+':
+        case 'increment':
             return {
                 counter: state.counter + 1
             };
 
-        case '-':
+        case 'decrement':
             return {
                 counter: state.counter - 1
             };
