@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import {increment, decrement } from "../actions/action";
 
 function App() {
-  const store = useSelector((store) => store);
+  // const store = useSelector((store) => store);
   const dispatch = useDispatch();
 
   const inc = () => {
