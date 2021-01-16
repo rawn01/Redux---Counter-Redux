@@ -1,6 +1,6 @@
 
 const initialState = {
-    count: 0
+    counter: 0
 };
 
 const reducer = (state = initialState, action) => {
@@ -8,12 +8,12 @@ const reducer = (state = initialState, action) => {
     switch (action.type) {
         case 'increment':
             return {
-                count: state.count + 1
+                counter: state.counter + 1
             };
 
         case 'decrement':
             return {
-                count: state.count - 1
+                counter: state.counter - 1
             };
 
         default:
