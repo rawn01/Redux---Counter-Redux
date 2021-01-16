@@ -1,9 +1,9 @@
 const increment = () => ({
-    type: "increment"
+    type: "+"
 });
 
 const decrement = () => ({
-    type: "decrement"
+    type: "-"
 });
 
 export { increment, decrement };
