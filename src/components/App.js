@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import {increment, decrement } from "../actions/action";
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div id='main'>
-      <h3 data-testid='counter'>{store.counter}</h3>
+      <h3 data-testid="counter">{store.counter}</h3>
       <button onClick={inc}>+</button>
       <button onClick={dec}>-</button>
     </div>
